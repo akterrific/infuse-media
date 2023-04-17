@@ -5,4 +5,4 @@ $visitor = new Visitor();
 $visitor->logVisit();
 
 header('Content-Type: image/png');
-readfile('banner.png');
+readfile('./public/images/banner.png');
